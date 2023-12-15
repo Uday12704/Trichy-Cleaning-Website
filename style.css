@@ -1,0 +1,28 @@
+.home-navbar{
+    background-color: #e42a86;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.home-brand{
+    color: white;
+    font-weight: bolder;
+}
+
+.home-navlink{
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white
+}
+
+.tcs-logo{
+    height: 90px;
+}
+
+.callus{
+    font-size: larger;
+    color: white;
+    margin-top: 10px;
+}
