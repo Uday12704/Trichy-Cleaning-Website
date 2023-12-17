@@ -26,3 +26,9 @@
     color: white;
     margin-top: 10px;
 }
+
+@media all and (max-width: 430px) {
+    .callus{
+        font-size: large;
+    }
+}
