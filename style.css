@@ -90,27 +90,35 @@
     transition-timing-function: ease-out;
   }
 
-  .home-navlink:not(.active):hover:before, .home-navlink:not(.active):focus:before, .home-navlink:not(.active):active:before {
+.home-navlink:not(.active):hover:before, .home-navlink:not(.active):focus:before, .home-navlink:not(.active):active:before {
     left: 0;
     right: 0;
   }
 
-  .active{
+.active{
     border-bottom: 4px solid white;
   }
 
-  .home-navlink:not(.active):visited{
+.home-navlink:not(.active):visited{
     color: white;
   }
 
-  .home{
+.home{
     width: 100%;
-    display: flex;
   }
 
-  .clean-img{
-    width: 50%;
-  }
+
+
+.clean-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.intro{
+  padding:3%;
+  width: 50%;
+}
 
 #down{
     height: 80px;
