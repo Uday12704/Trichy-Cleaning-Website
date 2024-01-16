@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400&display=swap');
+
+
 .home-navbar{
     background-color: #e42a86;
     font-size: larger;
     font-weight: bolder;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .home-brand{
@@ -21,10 +26,20 @@
     height: 90px;
 }
 
+.call-us{
+    background-color: #e42a86;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
 .callus{
-    font-size: larger;
+    font-size: 30px;
+    font-weight: bolder;
     color: white;
-    margin-top: 10px;
+    margin: 0;
+    margin-top: 1%;
 }
 
 @media all and (max-width: 430px) {
@@ -107,33 +122,73 @@
     width: 100%;
   }
 
-
-
 .clean-img{
     width: 100%;
     position: absolute;
     z-index: -1;
 }
 
+.underline{
+    border-bottom: 4px solid #e42a86;
+}
+
 .intro{
   padding:3%;
-  width: 50%;
+  width: 70%;
+}
+
+.intro h1{
+  padding-top: 7%;
+  padding-bottom: 2%;
+  font-family: 'Signika Negative', sans-serif;
+  color: white;
+  font-size: 70px;
+}
+
+.intro p{
+  padding-top: 1%;
+  font-family: 'Signika Negative', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+@media all and (max-width: 576px) {
+    .intro{
+      padding: 0;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 992px){
+  .clean-img{
+    content: url("assets/imgs/mob-img.jpg");
+    width: 100%;
+  }
+  .intro h1{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 45px;
+  }
+  .intro p{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-size: 25px;
+  }
 }
 
 #down{
-    height: 80px;
-    margin-top: 10vh;
+  height: 80px;
 }
 
 .down{
-    background: none;
-	border: none;
-	cursor: pointer;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .down-div{
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 @keyframes bounce {
@@ -150,10 +205,4 @@
 
 img.jumping {
   animation: bounce 1s infinite;
-}
-
-@media all and (max-width: 430px) {
-    .clean-img{
-        width: 100%;
-    }
 }
