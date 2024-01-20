@@ -47,12 +47,6 @@
     margin: 0;
 }
 
-@media all and (max-width: 430px) {
-    .callus{
-        font-size: larger;
-    }
-}
-
 .home-navlink:not(.active) {
     display: inline-block;
     vertical-align: middle;
@@ -182,6 +176,9 @@
     .hide{
       display: none;
     }
+    .callus{
+      font-size: larger;
+    }
 }
 
 @media all and (max-width: 1205px) {
@@ -293,7 +290,6 @@ img.jumping {
 
 .footer{
   background-color: #e42a86;
-  height: 35vh;
 }
 
 .footer-container{
@@ -301,9 +297,57 @@ img.jumping {
 }
 
 .footer-row{
-  height: 35vh;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer-col{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.footer-heading{
+  color: white;
+  font-weight: bolder;
+}
+
+.footer-list{
+  color: white;
+  font-size: larger;
+}
+
+.footer-link{
+  color: white;
+}
+
+.footer-link:visited{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-link:hover{
+  color: #ffffff;
+}
+
+.footer-link:active{
+  color: #ffffff;
+}
+
+.footer-p{
+  color: white;
+  font-size: larger;
+}
+
+#my-location{
+  text-decoration: none;
+}
+
+#my-location:visited{
+  color: white;
+  text-decoration: none;
 }
 
 #footer-icon{
-  width: 40%;
+  width: 50%;
+  margin-left: 10%;
 }
