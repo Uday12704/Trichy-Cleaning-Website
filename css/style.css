@@ -109,7 +109,7 @@
     right: 0;
   }
 
-.active{
+.navbar-active{
     border-bottom: 4px solid white;
   }
 
@@ -123,11 +123,19 @@
 
 .home{
     width: 100%;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Signika Negative',sans-serif;
   }
 
 .clean-img{
     width: 100%;
+}
+
+#large-img{
+    display: block;
+}
+
+#mobile-img{
+    display: none;
 }
 
 .intro{
@@ -199,15 +207,20 @@
 }
 
 @media all and (max-width: 992px){
-  .clean-img{
-    content: url("assets/imgs/mob-img.jpg");
-    width: 100%;
+  #large-img{
+    display: none;
+  }
+  #mobile-img{
+    display: block;
   }
   .carousel-heading-h1{
     font-size: 45px;
   }
   .brand-heading-h1{
     font-size: 45px;
+  }
+  #footer-icon{
+    width: 30%;
   }
 }
 
@@ -242,9 +255,16 @@ img.jumping {
   animation: bounce 1s infinite;
 }
 
-.carousel-div{
-  margin-top: 2%;
+.waves{
+  background-color: #e42a86;
+  transform: rotate(180deg);
   width: 100%;
+}
+
+.carousel-div{
+  padding-top: 2%;
+  width: 100%;
+  background-color: #e42a86;
 }
 
 .carousel-heading{
@@ -252,11 +272,15 @@ img.jumping {
 }
 
 .carousel-heading-h1{
+  padding: 1%;
   font-size: 70px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 55%;
 }
 
 .carousel-container{
-  height: 100%;
+  padding-top: 4%;
 }
 
 .carousel-row{
@@ -269,11 +293,15 @@ img.jumping {
 }
 
 .carousel-1{
-  border: solid 2px #e42a86;
+  border: solid 4px #ffffff;
 }
 
 .carousel-2{
-  border: solid 2px #e42a86;
+  border: solid 4px #ffffff;
+}
+
+.brands{
+  margin-top: 1%;
 }
 
 .brand-heading{
@@ -297,8 +325,7 @@ img.jumping {
 }
 
 .footer-row{
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
 }
 
 .footer-col{
@@ -338,6 +365,10 @@ img.jumping {
   font-size: larger;
 }
 
+.address-col{
+  padding: 0;
+}
+
 #my-location{
   text-decoration: none;
 }
@@ -348,6 +379,7 @@ img.jumping {
 }
 
 #footer-icon{
-  width: 50%;
+  width: 70%;
   margin-left: 10%;
 }
+
