@@ -138,6 +138,54 @@
   border-radius: 55%;
 }
 
+.reva-container{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.reva-row{
+  width: 100%;
+}
+
+.reva-heading{
+  background-color: #e42a86;
+  text-align: center;
+  color: white;
+  border-top: #e42a86 4px solid;
+  border-bottom: #e42a86 4px solid;
+}
+
+.reva-card-body{
+  padding-bottom: 0;
+}
+
+.reva-img{
+  width: 100%;
+}
+
+.liquid-container{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.liquid-row{
+  width: 100%;
+}
+
+.liquid-heading{
+  background-color: #e42a86;
+  text-align: center;
+  color: white;
+  border-top: #e42a86 4px solid;
+  border-bottom: #e42a86 4px solid;
+}
+
+.liquid-img{
+  width: 100%;
+}
+
 .footer{
   background-color: #e42a86;
 }
