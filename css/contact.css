@@ -121,10 +121,42 @@
     color: #e42a86;
 }
 
-.home{
+.main{
     width: 100%;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Signika Negative',sans-serif;
   }
+
+.contact-heading{
+  text-align: center;
+}
+  
+.contact-heading-h1{
+  padding: 1%;
+  font-size: 70px;
+}
+
+.contact-content{
+  display: flex;
+	align-items:center;
+	justify-content: space-around;
+}
+
+.contact-container{
+  background-color: #e42a86;
+  width: 60%;
+  border-radius: 30%;
+}
+
+.contact-row{
+  padding: 8%;
+}
+
+@media all and (max-width: 992px){
+  .contact-container{
+    width: 90%;
+    border-radius: 15%;
+  }
+}
 
 .footer{
   background-color: #e42a86;
