@@ -121,10 +121,70 @@
     color: #e42a86;
 }
 
-.home{
+.main{
     width: 100%;
     font-family: 'Signika Negative', sans-serif;
-  }
+}
+
+.main-heading{
+  text-align: center;
+}
+
+.main-heading-h1{
+  font-size: 70px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.contact-wrapper {
+  color: white;  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: max-content;
+  background-color: #e42a86;
+}
+
+.name{
+  width: 100%;
+}
+
+.alert{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 9px;
+  width: fit-content;
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.alert-icon {
+  padding: 0 9px 0 0;
+}
+
+.alert-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.req {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.field {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 11px;
+  margin-bottom: 10px;
+}
 
 .footer{
   background-color: #e42a86;
