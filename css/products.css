@@ -146,6 +146,10 @@
   padding-bottom: 3%;
 }
 
+.tools-products{
+  padding-bottom: 3%;
+}
+
 .reva-container{
   width: 100%;
   padding-top: 1%;
@@ -210,6 +214,28 @@
 
 .tools-card-body{
   padding-bottom: 0;
+}
+
+.tools-container{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.tools-row{
+  width: 100%;
+}
+
+.tools-heading{
+  background-color: #e42a86;
+  text-align: center;
+  color: white;
+  border-top: #e42a86 4px solid;
+  border-bottom: #e42a86 4px solid;
+}
+
+.tools-img{
+  width: 100%;
 }
 
 .footer{
