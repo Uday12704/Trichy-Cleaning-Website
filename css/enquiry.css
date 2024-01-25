@@ -144,22 +144,22 @@
 }
 
 .contact {
-  width: max-content;
+  padding: 1%;
+  margin: 0px 15%;
   background-color: #e42a86;
-}
-
-.name{
-  width: 100%;
 }
 
 .alert{
   display: none;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 9px;
-  width: fit-content;
-  margin: 0 0 10px;
-  line-height: 1.4;
+  width: max-content;
+}
+
+.field-alert-col{
+  display: flex;
+}
+
+.field-alert-div{
+  margin-right: 1%;
 }
 
 .alert-icon {
@@ -169,6 +169,7 @@
 .alert-text {
   font-size: 14px;
   font-weight: 500;
+  margin: 0;
 }
 
 .req {
@@ -177,13 +178,27 @@
 }
 
 .field {
-  width: 100%;
   font-size: 18px;
   border: none;
   background-color: white;
   color: rgb(0, 0, 0);
-  padding: 11px;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
+}
+
+@media all and (max-width: 768px) {
+  .alert-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+  }
+  .alert{
+    width: fit-content;
+    padding: 2%;
+  }
+  .contact{
+    padding: 2%;
+    margin: 0px 3%;
+  }
 }
 
 .footer{
