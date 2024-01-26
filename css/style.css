@@ -269,14 +269,13 @@ img.jumping {
 
 .carousel-heading{
   text-align: center;
+  background-color: #ffffff;
 }
 
 .carousel-heading-h1{
   padding: 1%;
   font-size: 70px;
-  background-color: #ffffff;
   display: inline-block;
-  border-radius: 55%;
 }
 
 .carousel-container{
