@@ -74,17 +74,17 @@ function sendMail() {
   let emailValue = email.value.trim();
   let messageValue = message.value.trim();
 
-  emailjs.init("364zyalzO9rVbmoUMvyB5"); //private key
+  emailjs.init("sY4qS-y-TQMNh36dpvK08"); //private key
 
   const formData = {
-    name: firstNameValue,
-    email: emailValue,
-    phone: phoneValue,
-    message: messageValue,
+    from_name: firstNameValue,
+    Email: emailValue,
+    Phone: phoneValue,
+    Message: messageValue,
   };
 
   emailjs
-    .send("service_eay6c5q", "template_x7ddo8r", formData, "NnhSdAb1IoHTWFN-Z")
+    .send("service_5f48dwo", "template_79txwvm", formData, "Ov1mCIQoIdw3CyTSP")
     .then(
       function (response) {
         successAlert.style.display = "flex";
